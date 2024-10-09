@@ -1,0 +1,7 @@
+<!-- Root View: starting view which contains the container control to contain other view  -->
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tcs.fin.ap.controller.App">
+
+<!-- Container control -->
+<SplitApp id="idAppCon"></SplitApp>
+    <!-- <App id="idAppCon"></App> -->
+</mvc:View>

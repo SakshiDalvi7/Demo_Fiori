@@ -1,0 +1,36 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+    xmlns:f="sap.ui.layout.form"
+    xmlns="sap.m">
+
+    <f:SimpleForm>
+        <f:content>
+            <!-- <Label text="color"></Label>
+            <Text text="{color}"></Text>
+            <Label text="season"></Label>
+            <Text text="{season}"></Text>
+            <Label text="healthBenefit"></Label>
+            <Text text="{healthBenefit}"></Text>
+            <Label text="size"></Label>
+            <Text text="{size}"></Text> -->
+            <Label text="Category"></Label>
+            <Text text="{CATEGORY}"></Text>
+            <Label text="Price"></Label>
+            <Text text="{PRICE}"></Text>
+            <Label text="Currency"></Label>
+            <Text text="{CURRENCY_CODE}"></Text>
+            <Label text="Dimensions"></Label>
+            <Text text="{DIM_UNIT}"></Text>
+            <!-- supplier data along with product data -->
+            <core:Title text="Supplier Data"/>
+            <Label text="BP ID"/>
+            <Text text="{ToSupplier/BP_ID}"/>
+            <Label text="BP Role"/>
+            <Text text="{ToSupplier/BP_ROLE}"/>
+            <Label text="Company Name"/>
+            <Text text="{ToSupplier/COMPANY_NAME}"/>
+            <Label text="City"/>
+            <Text text="{ToSupplier/CITY},{ToSupplier/COUNTRY}"/>
+        </f:content>
+    </f:SimpleForm>
+
+</core:FragmentDefinition>
